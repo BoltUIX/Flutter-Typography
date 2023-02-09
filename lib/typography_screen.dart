@@ -16,15 +16,10 @@ class TypographyScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
 
-
-
-
-
-
             TextStyleExample(
                 name: "Display Large", style: textTheme.displayLarge!.copyWith(fontFamily: "Royale")),
             TextStyleExample(
-                name: "Display Medium", style: textTheme.displayMedium!),
+                name: "Display Medium", style: textTheme.displayMedium!.copyWith(fontFamily: "Royale")),
             TextStyleExample(
                 name: "Display Small", style: textTheme.displaySmall!),
 
